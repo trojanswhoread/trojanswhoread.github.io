@@ -1,6 +1,11 @@
-.toosmall {
+.correctsize {
     display: none;
 }
+
+.toosmall {
+    display: block !important;
+}
+
 body {
 font-size:20px;
 font-family:'Times',serif;
@@ -99,13 +104,27 @@ html {
     display: flex; 
     justify-content: center; 
     align-items: center;
+    text-align: center;   
+}
+.aboutsmall{
+    height: fit-content;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     text-align: center;
-    
 }
 .contact{
     background-color: #000;
     color: #fff;
     height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+.contactsmall{
+    background-color: #000;
+    color: #fff;
     display: flex; 
     justify-content: center; 
     align-items: center;
