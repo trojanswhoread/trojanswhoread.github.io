@@ -1,4 +1,4 @@
-# University of Southern California: Trojans Who Read official website ⋆.˚⟡ ࣪ ˖
+# USC Trojans Who Read official website ⋆.˚⟡ ࣪ ˖
 
 ## running locally
 
