@@ -4,10 +4,12 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-
-{% include head.html %}
-
-<body>
-{{ content }}
-</body>
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+        {% include welcome.html %}
+        {% include about.html %}
+        {% include contact.html %}
+        {{ content }}
+    </body>
 </html>
